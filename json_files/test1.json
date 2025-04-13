@@ -1,0 +1,31 @@
+{
+  "examName": "Medical exam test 1",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "question": "As part of the 'New Economic Policy' of 1952–1953, it was decided:",
+      "options": [
+        "To increase governmental involvement due to the failure of the previous policy and the severe balance of payments crisis",
+        "On a new economic policy aimed at curbing inflation, while increasing government involvement in the labor market",
+        "On a policy of reducing government involvement by canceling rationing and gradually lifting price controls",
+        "In response to the balance of payments crisis, to switch to a floating exchange rate regime",
+        "Answers A, B, C, and D are all incorrect"
+      ],
+      "correctIndex": 2,
+      "explanation": "As part of the 'New Economic Policy' during 1952–1953, the decision was to reduce government involvement in the economy by eliminating rationing and gradually lifting price controls, as part of a shift toward a more liberal economic policy."
+    },
+    {
+      "questionNumber": 2,
+      "question": "During the mass immigration years of 1948–1951:",
+      "options": [
+        "There was an excess supply which led to the emergence of a black market despite price controls",
+        "The government hardly intervened in the markets, resulting in suppressed inflation",
+        "A floating exchange rate policy was implemented, leading to a surplus in the balance of payments",
+        "There was a large import surplus that led to a decrease in the economy’s foreign currency reserves",
+        "Answers A, B, C, and D are all incorrect"
+      ],
+      "correctIndex": 3,
+      "explanation": "During the mass immigration period (1948–1951), there was a large import surplus that led to a decrease in the economy's foreign currency reserves. The rapid population growth increased demand for imported goods, while the young economy's production capacity was limited, leading to a balance of payments deficit and a drop in foreign exchange reserves."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster Pro - Medical</title>
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <button id="home-button" class="btn btn-nav">
+            <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+            <span>Home</span>
+        </button>
+        <div class="menu-stats">
+            <h2 id="quiz-title" class="menu-title">Medical Learning System</h2>
+            <span id="stats-display" class="hidden">Correct answers: <span id="menu-correct">0</span> out of <span id="menu-total">0</span></span>
+        </div>
+        <button id="dark-mode-toggle" class="btn btn-nav">
+            <svg class="nav-icon moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg class="nav-icon sun-icon hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+        </button>
+    </div>
+    <div class="container">
+        <div id="start-screen" class="screen">
+            <h1>"Future Patients Needs To Be Prepared"</h1>
+            <div class="start-container">
+                <div class="select-container">
+                    <label for="exam-select">Select question bank:</label>
+                    <select id="exam-select" class="form-control">
+                        <option value="israel-economy-2025">Israel Economy - 2025 - Practice Questions</option>
+                    </select>
+                </div>
+                <div class="select-container">
+                    <label for="question-count">How many questions would you like to practice?</label>
+                    <div class="slider-container">
+                        <div class="slider-wrapper">
+                            <input type="range" id="question-count" class="slider-input" min="1" max="27" value="10" step="1">
+                            <div class="slider-thumb-wrapper">
+                                <div id="question-count-value" class="slider-value">10</div>
+                            </div>
+                        </div>
+                        <div class="slider-labels">
+                            <span class="slider-label">1</span>
+                            <span class="slider-label" id="slider-max-label">27</span>
+                        </div>
+                    </div>
+                </div>
+                <button id="start-quiz" class="btn btn-primary">Start Quiz</button>
+                <p>Made with ❤️ by <a href="https://www.linkedin.com/in/elay-g" target="_blank">Elay Guez</a></p>
+            </div>
+        </div>
+
+        <div id="quiz-container" class="screen hidden">
+            <div id="question-container">
+                <p id="question-text"></p>
+                <div id="options-container"></div>
+            </div>
+            <div id="feedback-container" class="hidden">
+                <p id="feedback-text"></p>
+                <p id="explanation-text"></p>
+            </div>
+            
+            <div id="controls">
+                <button id="prev-btn" class="btn btn-secondary" disabled>Previous</button>
+                <button id="next-btn" class="btn btn-primary" disabled>Next</button>
+            </div>
+            <div id="progress-container">
+                <div id="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+                <p id="progress-text"><span id="current-question">0</span> out of <span id="total-progress">0</span></p>
+            </div>
+        </div>
+        <div id="summary-screen" class="screen hidden">
+            <h1>Quiz Summary</h1>
+            <div class="summary-container">
+                <div class="summary-stats">
+                    <p>Total questions: <span id="summary-total">0</span></p>
+                    <p>Correct answers: <span id="summary-correct">0</span></p>
+                    <p>Score: <span id="summary-accuracy">0</span></p>
+                </div>
+                <button id="restart-quiz" class="btn btn-primary">Back to Home</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
