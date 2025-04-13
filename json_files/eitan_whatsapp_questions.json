@@ -1,0 +1,395 @@
+{
+  "examName": "eithan_whatsapp_questions",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "question": "Elastic return to initial position of cilia is guaranteed by nexin.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "Nexin links adjacent microtubule doublets in cilia and plays a key role in restoring their position after bending."
+    },
+    {
+      "questionNumber": 2,
+      "question": "Nebulin contributes to sarcomere decontraction, thanks to its elastic properties.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "Nebulin acts as a stabilizing protein along actin filaments in muscle cells. It is not responsible for sarcomere decontraction; titin and elastic recoil are more relevant."
+    },
+    {
+      "questionNumber": 3,
+      "question": "Myelopoiesis requires about two weeks.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "The development of mature granulocytes from stem cells takes approximately 10–14 days under normal conditions."
+    },
+    {
+      "questionNumber": 4,
+      "question": "In orthochromatic erythroblasts hemoglobin synthesis takes place.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "Orthochromatic erythroblasts still contain enough cellular machinery to produce hemoglobin."
+    },
+    {
+      "questionNumber": 5,
+      "question": "In adults, bone marrow is present only in long bones.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "In adults, hematopoietic marrow is found in flat bones (e.g. pelvis, sternum), not only in long bones."
+    },
+    {
+      "questionNumber": 6,
+      "question": "Rearrangement of TCR genes takes place in the thymus.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "T-cell receptor gene rearrangement occurs in the thymus during T-cell maturation."
+    },
+    {
+      "questionNumber": 7,
+      "question": "Thrombin, in the presence of Ca2+, transforms fibrinogen (soluble) into fibrin (insoluble).",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a key step in the coagulation cascade leading to clot formation."
+    },
+    {
+      "questionNumber": 8,
+      "question": "Eosinophilia can be observed in cases of allergic reactions and viral infections.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "Eosinophilia is typically associated with allergic reactions and parasitic infections, not viral infections."
+    },
+    {
+      "questionNumber": 9,
+      "question": "Gap junctions are open in low Ca++ and high pH conditions.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "Low intracellular calcium and high pH favor the opening of gap junction channels."
+    },
+    {
+      "questionNumber": 10,
+      "question": "Transducin is a small G protein associated with opsin.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "Transducin is a G-protein activated by opsin in photoreceptor cells during visual transduction."
+    },
+    {
+      "questionNumber": 11,
+      "question": "ACTH interacts with tyrosine-kinase coupled receptors.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "ACTH binds to a G protein-coupled receptor (MC2R), not a tyrosine kinase receptor."
+    },
+    {
+      "questionNumber": 12,
+      "question": "The knee is distal to the ankle.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "Anatomically, the knee is proximal to the ankle, not distal."
+    },
+    {
+      "questionNumber": 13,
+      "question": "In a solid organ the parenchyma is the functional part of the organ.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "Parenchyma refers to the tissue that carries out the specific functions of the organ."
+    },
+    {
+      "questionNumber": 14,
+      "question": "A hollow organ could present a Tunica Adventitia or a Tunica Serosa lining the internal cavity (depending on the organ that you are describing).",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "Hollow organs either have an outer tunica serosa (if intraperitoneal) or tunica adventitia (if retroperitoneal or fixed)."
+    },
+    {
+      "questionNumber": 15,
+      "question": "In the anatomical position the person is lying down.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "The anatomical position is defined as standing upright, facing forward, with arms at sides and palms forward."
+    },
+    {
+      "questionNumber": 16,
+      "question": "The right ovary drains directly into the inferior vena cava, but the left ovary drains into the left renal vein (which then drains into the inferior vena cava).",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "This reflects the asymmetrical venous drainage of the gonadal veins."
+    },
+    {
+      "questionNumber": 17,
+      "question": "The cortex of the ovary is largely composed of connective tissue supporting thousands of follicles, which are oocytes surrounded by a layer of follicular cells. The medulla is the inner part of the ovary, and it contains the neurovascular structures.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "This accurately describes the histological organization of the ovary."
+    },
+    {
+      "questionNumber": 18,
+      "question": "The suspensory ligament connects the ovaries to the uterus, attaching just below the join of the fallopian tubes.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "The suspensory ligament connects the ovary to the lateral pelvic wall, not to the uterus."
+    },
+    {
+      "questionNumber": 19,
+      "question": "The mesosalpinx is the portion of the broad ligament that covers the fallopian tubes.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "The mesosalpinx is a subdivision of the broad ligament that envelops the uterine tubes."
+    },
+    {
+      "questionNumber": 20,
+      "question": "The tertiary bronchi branch directly into the respiratory bronchioles.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "Tertiary bronchi (segmental) branch into smaller conducting bronchioles first, not directly into respiratory bronchioles."
+    },
+    {
+      "questionNumber": 21,
+      "question": "The conchae are outgrowths found on the medial surface of the nasal cavities that increase the surface area for inspired air.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "The nasal conchae (turbinates) are bony structures that help humidify and filter air."
+    },
+    {
+      "questionNumber": 22,
+      "question": "In the lungs the horizontal fissure is found between the right upper and middle lobe, whilst the oblique fissure separates the right middle and lower lobe. The left upper and lower lobe are separated by the oblique fissure.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "This is an accurate anatomical description of pulmonary fissures and lobes."
+    },
+    {
+      "questionNumber": 23,
+      "question": "The trachea begins at the inferior border of the thyroid cartilage.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "The trachea begins at the level of the cricoid cartilage, which lies just below the thyroid cartilage."
+    },
+    {
+      "questionNumber": 24,
+      "question": "The nasal septum has a skeleton partially made of bone and partially cartilage.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "The nasal septum consists of the vomer and ethmoid bones posteriorly, and septal cartilage anteriorly."
+    },
+    {
+      "questionNumber": 25,
+      "question": "The trigone of the urinary bladder is also considered the superior surface of the organ.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "The trigone is located on the posterior wall of the bladder base, not the superior surface."
+    },
+    {
+      "questionNumber": 26,
+      "question": "The medulla region of the kidney contains abundant renal corpuscles.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "Renal corpuscles are found in the cortex, not in the medulla."
+    },
+    {
+      "questionNumber": 27,
+      "question": "The renal hilum lies on its medial border.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "The renal hilum is located on the medial border of the kidney and serves as the entry/exit for vessels and ureter."
+    },
+    {
+      "questionNumber": 28,
+      "question": "The nephron consists of a portion named renal corpuscle and a portion named renal tubule.",
+      "options": [
+        "True",
+        "False",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "explanation": "Each nephron is composed of a renal corpuscle (glomerulus + Bowman's capsule) and a renal tubule."
+    },
+    {
+      "questionNumber": 29,
+      "question": "The anterior relations of the right kidney include the tail of the pancreas.",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "The tail of the pancreas is related to the left kidney, not the right."
+    },
+    {
+      "questionNumber": 30,
+      "question": "The gastropancreatic ligament constitutes the lesser sac (omental bursa).",
+      "options": [
+        "False",
+        "True",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 1,
+      "explanation": "The gastropancreatic ligament is part of the lesser omentum, but it does not constitute the lesser sac."
+    }
+  ]
+}

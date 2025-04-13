@@ -399,6 +399,11 @@ function displayQuestion() {
     // Create option elements
     const optionLetters = ['A', 'B', 'C', 'D', 'E'];
     currentQuestion.options.forEach((option, index) => {
+        // Skip empty options
+        if (!option || option.trim() === '') {
+            return;
+        }
+        
         const optionElement = document.createElement('div');
         optionElement.classList.add('option');
         optionElement.textContent = `${optionLetters[index]}. ${option}`;
@@ -489,7 +494,9 @@ function submitAnswer() {
     
     // Highlight correct and incorrect options
     const options = optionsContainerElement.querySelectorAll('.option');
-    options.forEach((option, index) => {
+    options.forEach((option) => {
+        const index = parseInt(option.dataset.index);
+        
         if (index === currentQuestion.correctIndex) {
             option.classList.add('correct');
         } else if (index === selectedOptionIndex && !isCorrect) {
